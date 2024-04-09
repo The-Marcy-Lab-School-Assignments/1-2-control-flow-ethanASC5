@@ -3,7 +3,7 @@ const getRandomIntInRange = (min, max) => {
   return Math.floor(Math.random() * (max - min) + min);
 };
 console.log(Math.floor(Math.random() * 10) +1)
-
+/** FEEDBACK: Awesome job with this ternary! */
 const coolnessGauge = (numOfFridges) => {
   return numOfFridges > 3 ? 'You are downright chilly!' : 'You need more fridges.';
 };
@@ -21,7 +21,7 @@ const funkoPopAddictionLevel = (numOfFunkoPops) => {
     console.log('You need an intervention!!!');
   }
 };
-
+/** FEEDBACK: Make sure to keep spacing consistent in the future! */
 const getWeatherReport = (temperature) => {
       let weatherReport;
   if (temperature > 90) {
@@ -43,7 +43,12 @@ else if (temperature < 32) {
   console.log("And that's your report!");
   return weatherReport;
 };
-
+/** FEEDBACK: Great use of conditionals here, you could've also used a ternary here. Your code would then look like this: 
+const returnPositiveNegativeZero = (num) => {
+  if (num === 0) return 'Zero';
+  return (num < 1) ? 'Negative' : 'Positive';
+};
+ */
 const returnPositiveNegativeZero = (num) => {
   if (num === 0) {
     return 'Zero'

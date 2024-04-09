@@ -1,3 +1,4 @@
+/** FEEDBACK: You got the logic down! In the future, make sure that the else if is starting on the same line as the closing bracket for the if statement. This is just a convention that is widely used. */
 const measureRain = (inches) => {
   if (inches === 0) {
     console.log('drought')
@@ -17,7 +18,7 @@ const measureRain = (inches) => {
 };
 // measureRain(3)
 
-
+/** FEEDBACK: In the future, remove this empty space to keep your file clean! */
 
 
 
@@ -50,7 +51,7 @@ const happyBirthdayPet = (breed, age) => {
 //   }
 // } else if (breed = 'dog')
 
-
+/** FEEDBACK: Great job using escapes! */
 const funTypes = (jsType) => {
   if (typeof jsType === 'string') {
     console.log('That\'s just some text.')
